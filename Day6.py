@@ -43,8 +43,6 @@ def partTwo():
         nums_ls = [str(x) for x in split_line] 
         numbers = nums_ls[0].split(",")
 
-    print(numbers)
-
     i = 0
     totalNr = [0]*11
     while (i < len(numbers)):
@@ -63,17 +61,14 @@ def partTwo():
     i = 0
     j = 0
     k = 0
-    
     numbers = copy.deepcopy(numbers2)
     print(numbers)
-    skip = False
     totalnr6 = 0
     totalnr8 = 0
     while (i < 256):
         j = 0
         length = len(numbers)-2
         print(len(numbers))
-        skip = False
 
         if (totalNr[9] > 0):
             numbers[6] = 6

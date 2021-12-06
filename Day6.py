@@ -89,7 +89,6 @@ def partTwo():
                 totalnr8 = totalNr[j]
                 totalNr[0] = 0
                 numbers[10] = 8
-                skip = True
 
                 
             if (totalNr[j] > 0):

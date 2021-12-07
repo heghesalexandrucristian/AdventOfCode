@@ -11,7 +11,6 @@ def partOne():
         nums_ls = [str(x) for x in split_line] 
         numbers = nums_ls[0].split(",")
 
-    print(numbers)
     i = 0
     while (i < len(numbers)):
         numbers[i] = int(numbers[i])
@@ -22,7 +21,6 @@ def partOne():
     while (i < 80):
         j=0
         length = len(numbers)
-        print(len(numbers))
         while (j < length):
             if(numbers[j] == 0):
                 numbers[j] = 6
@@ -62,13 +60,11 @@ def partTwo():
     j = 0
     k = 0
     numbers = copy.deepcopy(numbers2)
-    print(numbers)
     totalnr6 = 0
     totalnr8 = 0
     while (i < 256):
         j = 0
         length = len(numbers)-2
-        print(len(numbers))
 
         if (totalNr[9] > 0):
             numbers[6] = 6
@@ -103,8 +99,9 @@ def partTwo():
         i+=1
     
 
-    print(totalNr)
+    #print(totalNr)
     print(sum(totalNr))
+
 
 
 

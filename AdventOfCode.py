@@ -12,9 +12,8 @@ def main():
     #print(Day6.partOne())
     #print(Day7.partTwo())
     #print (Day8.partTwo())
-    print(Day9.partOne())
-   # print(Day9.partTwo())
-    #print(Day10.partOne())
+    #print(Day9.partOne())
+    print(Day10.partOne())
 
 if __name__ == "__main__":
     main()
